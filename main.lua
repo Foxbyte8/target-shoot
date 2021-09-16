@@ -112,6 +112,7 @@ function love.mousepressed(x, y, button, istouch, pressed)
             elseif button == 2 then
                 clicks = clicks + 1
                 score = score + 2
+                timer = timer - 1
             end
             
             -- randomize targets position --
