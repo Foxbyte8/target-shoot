@@ -106,7 +106,6 @@ function love.mousepressed(x, y, button, istouch, pressed)
 
         -- events when you do click on a target --
         if mouseToTarget < target.radius then
-            score = score + 1
             if button == 1 then
                 score = score + 1
                 clicks = clicks + 1
